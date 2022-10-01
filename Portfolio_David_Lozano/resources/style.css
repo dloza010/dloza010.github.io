@@ -1,0 +1,139 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+html{
+    font-family: 'Space Mono', monospace;
+    background-color: rgb(32, 31, 31);
+    color: snow;
+}
+
+
+header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 5px;
+    padding-left: 15px;
+    border-bottom: solid rgb(251, 139, 3);  
+    color: snow;
+    top: 0;
+    left: 0;
+    background-image: url(/Users/david/Documents/Codecademy/Portfolio/Portfolio_David_Lozano/resources/images/mini-light-path-abstract-8k-3c-2880x1800.jpeg);
+    background-image: none;
+    background-color: black;
+}
+
+#subheader{
+    color: rgb(251, 139, 3); 
+    width: 300px;
+    margin: 40px auto;
+    border-top: solid 4px rgb(251, 139, 3); 
+}
+
+img{
+    width: 500px;
+    height: 380px;
+}
+
+#about-me img{
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+nav{
+    text-align: right;
+    width: 100%;
+    position: fixed;
+    top: 148px;
+    z-index: 2;
+    background-color: black;
+    left: 0;
+}
+
+
+nav li{
+    display: inline-block;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: aqua;
+}
+
+nav a:hover{
+    color: rgb(251, 139, 3);
+}
+
+.container{
+    position: relative;
+    top: 200px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+p{
+    color: snow;
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.project-container {
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.project-container .text-box{
+    margin: 30px;
+}
+
+.skills-logo-container{
+    display: inline-flex;
+}
+
+.inside-block{
+    padding: 0 200px;
+}
+
+.inside-block li{
+    list-style: none;
+    background-color: aqua;
+    margin: 10px 0;
+    color: black;
+}
+
+.logo-container{
+    display: inline-block;
+    margin: 10px;
+}
+
+i:hover{
+    color: snow;
+}
+
+.github-logo{
+    /* color: rgb(83, 32, 128); */
+    color: rgb(157, 66, 237);
+    
+}
+
+footer{
+    top: 250px;
+    height: 80px;
+    margin-top: 30px;
+    position: relative;
+    border-top: solid snow;
+}
+
+
+
